@@ -76,6 +76,12 @@ namespace ultramodern {
             HighPrecisionFramebuffer hpfb_option;
             int rr_manual_value;
             int ds_option;
+            // CRT post-filter. Percent options are 0..100.
+            int crt_option;
+            int crt_scanline_option;
+            int crt_mask_option;
+            int crt_curvature_option;
+            int crt_vignette_option;
 
             virtual ~GraphicsConfig() = default;
 
